@@ -18,6 +18,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: var(--light-gray);
 }
 
 .container{
@@ -26,7 +27,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--light-gray);
     gap: 6rem;
 }
 
@@ -60,16 +60,16 @@ img{
 
 
 h2{
-    font-weight: 700;
+    font-size: 1.4rem;
     color: var(--dark-blue);
     margin-bottom: 1rem;
     text-align: center;
 }
 
 p{
-    /* font-size: 15px; */
     font-weight: 400;
     color: var(--grayish-blue);
     margin-bottom: 1rem;
     text-align: center;
+    margin-top: 0;
 }
